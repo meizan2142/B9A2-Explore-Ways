@@ -74,7 +74,7 @@
   width: 1198px;
   height: 60vh;
   background-repeat: no-repeat;
-  margin: 20px 800px 0 350px;
+  margin: 20px 800px 0 450px;
   border-radius: 10px;
   text-align: center;
 }
@@ -144,7 +144,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 350px 0 350px;
+  padding: 0 500px 0 500px;
   gap: 50px;
 }
 
@@ -155,15 +155,15 @@
 }
 
 .popular-img img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .tours-text #text {
   color: rgba(19, 19, 24, 0.70);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 25px;
   margin: 25px 0;
 }
 
@@ -178,24 +178,163 @@
   font-weight: 700;
 }
 
-.tour-places {
+.tour-text {
   text-align: center;
   width: 100%;
-  height: 1000px;
+  height: 200px;
 }
 
-.tour-places h1 {
+.tour-text h1 {
   color: #131318;
   font-size: 2.5rem;
   font-weight: 800;
   padding: 60px 0 20px 0;
 }
 
-.tour-places p {
-  color: rgba(19, 19, 24, 0.70);
-  font-size: 16px;
+
+/* Tour Places */
+/* .place-images {
+  display: grid;
+}
+
+.place-images .number-1 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+  grid-column: ;
+}
+.place-images .number-2 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+}
+.place-images .number-3 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+}
+.place-images .number-4 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+}
+.place-images .number-5 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+}
+.place-images .number-6 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+}
+.place-images .number-7 {
+  background-image: url("Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  width: 570px;
+  height: 300px;
+} */
+
+.input-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 480px;
+}
+
+.input-image .discount-img {
+  background-image: url("Images/Rectangle\ 8\ \(1\).png");
+  background-repeat: no-repeat;
+  width: 672px;
+  height: 422px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: self-end;
+}
+
+.input-image .discount-img button {
+  padding: 20px 30px 20px 30px;
+  border-radius: 16px;
+  background: #FF5400;
+  border: none;
+  transform: rotate(-19.628deg);
+  margin-bottom: 48px;
+  margin-right: 5px;
+}
+
+.input-image .discount-img button p {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.input-image .discount-img button h2 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.input-field {
+  border-radius: 1rem;
+  border: 1px solid #FF5400;
+  height: 400px;
+  padding: 40px 30px 40px 30px ;
+}
+
+.input-field h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.input-field p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 26px;
-  /* padding-bottom: 30px; */
+  border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+  padding: 20px 0;
+}
+
+#input {
+  display: grid;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+#input #text {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 10px 15px 10px 15px ;
+  border: none;
+  outline: none;
+}
+
+#input #email {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 10px 15px 10px 15px ;
+  border: none;
+  outline: none;
+}
+
+#input button {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 10px 15px 10px 15px ;
+  border: none;
+  outline: none;
+  background-color: #FF5400;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 
@@ -341,20 +480,47 @@ footer {
     margin: 25px 0;
   }
 
-  .tour-places h1 {
+  .tour-text h1 {
     font-size: 1.5rem;
     padding: 30px 0 10px 0;
   }
 
-  .tour-places p {
+  .tour-text p {
     font-size: 16px;
     line-height: 26px;
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
     font-size: 0.9rem;
     line-height: 24px;
     width: 90%;
     margin: 0 auto;
   }
+
+
+  .input-image {
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+
+  .input-image .discount-img {
+    width: 350px;
+    height: 350px;
+    margin: 20px 0;
+  }
+
+  .input-image .discount-img button {
+    padding: 10px 10px 10px 10px;
+    transform: rotate(-24deg);
+    margin-bottom: 38px;
+  }
+  
+  .input-image .discount-img button p {
+    font-size: 1rem;
+  }
+  
+  .input-image .discount-img button h2 {
+    font-size: 1rem;
+  }
+
 
   /* main sections media query ends here */
 
