@@ -198,9 +198,67 @@ footer {
   padding-top: 30px;
 }
 
+/* footer style ends here*/
+
 
 
 @media screen and (max-width: 600px) {
+  
+/* header media query starts*/
+
+.nav-container {
+  padding: 20px 20px;
+}
+
+.nav-container ul {
+  display: none;
+}
+
+.nav-container .menu {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.nav-container .name-icon img {
+  width: 2rem;
+}
+
+.nav-container #Trek,
+#tripper {
+  font-size: 2rem;
+}
+
+.banner-section {
+  width: 95%;
+  height: 90vh;
+  margin: 0px 10px 0px 10px;
+  background-position: top;
+}
+
+.input-section {
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  margin: 0 0px 0 50px;
+  width: 70%;
+  gap: 1rem;
+}
+
+#banner-title {
+  font-size: 2rem;
+  padding: 0 0 0 0;
+}
+
+#banner-description {
+  font-size: 1rem;
+  margin: 20px auto;
+  width: 300px;
+}
+
+/* header media query ends */
+
+
+/* footer media query starts*/
+
   footer {
     text-align: center;
     width: 100%;
@@ -209,54 +267,6 @@ footer {
     background: rgba(19, 19, 24, 0.05);
   }
   
-  .nav-container {
-    padding: 20px 20px;
-  }
-
-  .nav-container ul {
-    display: none;
-  }
-
-  .nav-container .menu {
-    display: inline;
-    font-size: 1.5rem;
-  }
-
-  .nav-container .name-icon img {
-    width: 2rem;
-  }
-
-  .nav-container #Trek,
-  #tripper {
-    font-size: 2rem;
-  }
-
-  .banner-section {
-    width: 95%;
-    height: 90vh;
-    margin: 0px 10px 0px 10px;
-    background-position: top;
-  }
-
-  .input-section {
-    flex-direction: column;
-    padding: 20px 20px 20px 20px;
-    margin: 0 0px 0 50px;
-    width: 70%;
-    gap: 1rem;
-  }
-
-  #banner-title {
-    font-size: 2rem;
-    padding: 0 0 0 0;
-  }
-
-  #banner-description {
-    font-size: 1rem;
-    margin: 20px auto;
-    width: 300px;
-  }
-
   .footer-content .footer-logo {
     gap: 1rem;
     padding-top: 25px;
@@ -277,4 +287,7 @@ footer {
     margin: 0 auto;
     padding-bottom: 50px;
   }
+
+  /* footer media query ends */
+
 }
