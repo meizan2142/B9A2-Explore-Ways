@@ -198,6 +198,9 @@
   margin: 50px 480px;
 }
 
+
+
+
 .input-image .discount-img {
   background-image: url("Images/Rectangle\ 8\ \(1\).png");
   background-repeat: no-repeat;
@@ -647,8 +650,6 @@
 
 
 
-
-
 /* main sections ends here */
 
 /* footer section's styles starts here  */
@@ -1073,6 +1074,14 @@ footer {
     font-size: 1rem;
     font-weight: 700;
   }
+
+  
+.packages-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 
   /* main sections media query ends here */
