@@ -626,7 +626,22 @@
 }
 
 
+.packages-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
 
+.packages-btn button {
+  padding: 15px 20px 15px 20px;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #FF5400;
+  border: none;
+}
 
 
 
@@ -953,49 +968,49 @@ footer {
     margin-left: 20px;
     margin-bottom: 10px;
   }
-  
-.day-people-country {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
-.day-people-country li {
-  flex-direction: row;
-  gap: 0.1rem;
-  padding: 0px 0px 0px 0px;
-}
+  .day-people-country {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-.day-people-country li img {
-  object-fit: contain;
-}
+  .day-people-country li {
+    flex-direction: row;
+    gap: 0.1rem;
+    padding: 0px 0px 0px 0px;
+  }
 
-.tour-to-satorini h1 {
-  font-size: 0.1rem;
-  padding: 0px 0;
-}
+  .day-people-country li img {
+    object-fit: contain;
+  }
 
-.tour-to-satorini p {
-  color: #5A5A5D;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-  padding: 10px 0;
-}
+  .tour-to-satorini h1 {
+    font-size: 0.1rem;
+    padding: 0px 0;
+  }
 
-.tour-to-satorini #price-tag {
-  color: #FF5400;
-  font-size: 1.2rem;
-  font-weight: 800;
-  padding: 10px 0;
-}
+  .tour-to-satorini p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding: 10px 0;
+  }
 
-.tour-to-satorini button {
-  padding: 20px 12px;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-}
+  .tour-to-satorini #price-tag {
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 10px 0;
+  }
+
+  .tour-to-satorini button {
+    padding: 20px 12px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+  }
 
   .satorini-2 {
     width: 90%;
@@ -1015,49 +1030,49 @@ footer {
     margin-left: 20px;
     margin-bottom: 10px;
   }
-  
-.day-people-country {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
-.day-people-country li {
-  flex-direction: row;
-  gap: 0.1rem;
-  padding: 0px 0px 0px 0px;
-}
+  .day-people-country {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-.day-people-country li img {
-  object-fit: contain;
-}
+  .day-people-country li {
+    flex-direction: row;
+    gap: 0.1rem;
+    padding: 0px 0px 0px 0px;
+  }
 
-.tour-to-satorini h1 {
-  font-size: 0.1rem;
-  padding: 0px 0;
-}
+  .day-people-country li img {
+    object-fit: contain;
+  }
 
-.tour-to-satorini p {
-  color: #5A5A5D;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-  padding: 10px 0;
-}
+  .tour-to-satorini h1 {
+    font-size: 0.1rem;
+    padding: 0px 0;
+  }
 
-.tour-to-satorini #price-tag {
-  color: #FF5400;
-  font-size: 1.2rem;
-  font-weight: 800;
-  padding: 10px 0;
-}
+  .tour-to-satorini p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding: 10px 0;
+  }
 
-.tour-to-satorini button {
-  padding: 20px 12px;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-}
+  .tour-to-satorini #price-tag {
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 10px 0;
+  }
+
+  .tour-to-satorini button {
+    padding: 20px 12px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+  }
 
 
   /* main sections media query ends here */
